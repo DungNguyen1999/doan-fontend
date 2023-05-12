@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="../font.css">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="../common.css">
+    <link rel="stylesheet" href="Cart.css">
+    <title>Giỏ hàng.</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <!-- HEADER -->
+
+        <header>
+
+            <!-- HEADER NAV -->
+
+            <nav class="header-nav">
+                <div class="container">
+                    <div class="nav-content">
+                        <a class="logo-link" href="../index.html">
+                            <img class="logo" src="../img/logo.png" alt="">
+                        </a>
+
+                        <div class="nav-center">
+                            <ul class="nav-list">
+                                <li>
+                                    <a class="nav-link" href="">HOME</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="">SHOP</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="">BLOG</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="">SALE</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="">CONTACT US</a>
+                                </li>
+                            </ul>
+
+                            <form class="nav-form" action="">
+                                <input class="nav-input" type="text" placeholder="Search..." id="search-input">
+                                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                            </form>
+                        </div>
+
+                        <div class="nav-account">
+                            <a class="nav-acc-text" href="">SIGN IN</a>
+                            <a class="nav-acc-text" href="">SIGN UP</a>
+                        </div>
+
+                        <div class="nav-cart">
+
+                            <div class="nav-icon">
+                                <a href="">
+                                    <i class="fa-regular fa-heart love-style"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-solid fa-cart-plus cart-style"></i>
+                                </a>
+                            </div>
+
+                            <div class="nav-cart-item">
+                                <span class="nav-cart-text">Shopping Cart</span>
+                                <span class="nav-cart-price">0,00 EUR</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+
+
+        <!-- CART -->
+
+
+        <main class="cart">
+            <div class="container">
+
+                <div class="container">
+                    <h1 class="title">Giỏ hàng</h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Hình ảnh sản phẩm</th>
+                                <th>Tên sản phẩm</th>
+                                <th>Giá</th>
+                                <th>Kích cỡ</th>
+                                <th>Số lượng</th>
+                                <th>Thành tiền</th>
+                                <th>Chỉnh sửa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="./img/cart img 1.png" alt="Hình ảnh sản phẩm"></td>
+                                <td>Đầm xanh nữ phối trắng</td>
+                                <td>100 EUR</td>
+                                <td>M</td>
+                                <td>
+                                    <div class="quantity-4">
+                                        <button class="minus-btn-4" type="button" name="button">-</button>
+                                        <input type="text" name="quantity" value="1">
+                                        <button class="plus-btn-4" type="button" name="button">+</button>
+                                    </div>
+                                </td>
+                                <td class="quantity-price-4">100 EUR</td>
+                                <td class="cart-select">
+                                    <button>
+                                        <i class="fa-solid fa-pencil"></i>
+                                    </button>
+                                    <button>
+                                        <i class="fa-regular fa-trash-can"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><img src="./img/cart img 2.png" alt="Hình ảnh sản phẩm"></td>
+                                <td>Váy 2 dây họa tiết hoa văn</td>
+                                <td>200 EUR</td>
+                                <td>L</td>
+                                <td>
+                                    <div class="quantity-2">
+                                        <button class="minus-btn-2" type="button" name="button">-</button>
+                                        <input type="text" name="quantity" value="1">
+                                        <button class="plus-btn-2" type="button" name="button">+</button>
+                                    </div>
+                                </td>
+                                <td class="quantity-price-2">200 EUR</td>
+                                <td class="cart-select">
+                                    <button>
+                                        <i class="fa-solid fa-pencil"></i>
+                                    </button>
+                                    <button>
+                                        <i class="fa-regular fa-trash-can"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><img src="../img/fea img 1.png" alt="Hình ảnh sản phẩm"></td>
+                                <td>Váy 2 dây chấm bi</td>
+                                <td>150 EUR</td>
+                                <td>S</td>
+                                <td>
+                                    <div class="quantity-3">
+                                        <button class="minus-btn-3" type="button" name="button">-</button>
+                                        <input type="text" name="quantity" value="1">
+                                        <button class="plus-btn-3" type="button" name="button">+</button>
+                                    </div>
+                                </td>
+                                <td class="quantity-price-3">150 EUR</td>
+                                <td class="cart-select">
+                                    <button>
+                                        <i class="fa-solid fa-pencil"></i>
+                                    </button>
+                                    <button>
+                                        <i class="fa-regular fa-trash-can"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="total">
+                        <p class="total-money">
+                            Tổng tiền: 
+                            <span>450 EUR</span>
+                        </p>
+                        <button class="cart-btn">Xác nhận đơn hàng</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </main>
+
+
+        <!-- FOOTER -->
+
+
+        <footer>
+            <div class="container">
+                <div class="ft-content">
+                    <a class="logo-link" href="../index.html">
+                        <img class="logo" src="../img/logo.png" alt="">
+                    </a>
+
+                    <div class="ft-list">
+
+                        <div class="ft-item">
+                            <h3>features</h3>
+
+                            <ul>
+                                <li>
+                                    <a class="ft-link" href="">MEN</a>
+                                </li>
+
+                                <li>
+                                    <a class="ft-link" href="">WOMEN</a>
+                                </li>
+
+                                <li>
+                                    <a class="ft-link" href="">BOYS</a>
+                                </li>
+
+                                <li>
+                                    <a class="ft-link" href="">GIRLS</a>
+                                </li>
+
+                                <li>
+                                    <a class="ft-link" href="">NEW ARRIVALS</a>
+                                </li>
+
+                                <li>
+                                    <a class="ft-link" href="">SHOES</a>
+                                </li>
+
+                                <li>
+                                    <a class="ft-link" href="">COTHES</a>
+                                </li>
+
+                                <li>
+                                    <a class="ft-link" href="">ACCESSORIES</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="ft-item">
+                            <h3>Menu</h3>
+
+                            <ul>
+                                <li>
+                                    <a class="ft-link" href="">ABOUT US</a>
+                                </li>
+
+                                <li>
+                                    <a class="ft-link" href="">CONTACT US</a>
+                                </li>
+
+                                <li>
+                                    <a class="ft-link" href="">MY ACCOUNT</a>
+                                </li>
+
+                                <li>
+                                    <a class="ft-link" href="">ORDERS HISTORY</a>
+                                </li>
+
+                                <li>
+                                    <a class="ft-link" href="">MY WISHLIST</a>
+                                </li>
+
+                                <li>
+                                    <a class="ft-link" href="">BLOG</a>
+                                </li>
+
+                                <li>
+                                    <a class="ft-link" href="">LOGIN</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="ft-item">
+                            <h3>contact us</h3>
+
+                            <ul>
+                                <li class="dl-flex mg-b-10">
+                                    <span class="ft-label">ADDRESS</span>
+                                    <span class="ft-link">123 STREET NAME, CITY, ENGLAND</span>
+                                </li>
+                                <li class="dl-flex mg-b-10">
+                                    <span class="ft-label">PHONE</span>
+                                    <span class="ft-link">(123) 456-7890</span>
+                                </li>
+                                <li class="dl-flex mg-b-10">
+                                    <span class="ft-label">EMAIL</span>
+                                    <span class="ft-link">MAIL@EXAMPLE.COM</span>
+                                </li>
+                                <li class="dl-flex mg-b-10">
+                                    <span class="ft-label">WORKING DAYS/HOURS</span>
+                                    <span class="ft-link">MON - SUN / 9:00AM - 8:00PM</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="ft-item">
+                            <h3>follow us</h3>
+
+                            <ul>
+                                <li>
+                                    <a class="ft-contact" href="">
+                                        <img src="../img/fb icon.png" alt="">
+                                        <span class="ft-link">FACEBOOK</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="ft-contact" href="">
+                                        <img src="../img/tw icon.png" alt="">
+                                        <span class="ft-link">TWITTER</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="ft-contact" href="">
+                                        <img src="../img/ins icon.png" alt="">
+                                        <span class="ft-link">INSTAGRAM</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="ft-item max-w-220">
+                            <h3>join us</h3>
+                            <span class="ft-link ">Subscribe to our newsletters</span>
+
+                            <form class="ft-form">
+                                <input type="email" id="email" name="email" placeholder="Email Address">
+                                <button type="submit">Subscribe!</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+<script src="../jquery.min.js"></script>
+<script src="Cart.js"></script>
+
+</html>

@@ -1,0 +1,1376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="../font.css">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="../common.css">
+    <link rel="stylesheet" href="DSSP.css">
+    <title>Danh sách sản phẩm</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <!-- HEADER -->
+
+        <header>
+
+            <!-- HEADER NAV -->
+
+            <nav class="header-nav">
+                <div class="container">
+                    <div class="nav-content">
+                        <a class="logo-link" href="../index.html">
+                            <img class="logo" src="../img/logo.png" alt="">
+                        </a>
+
+                        <div class="nav-center">
+                            <ul class="nav-list">
+                                <li>
+                                    <a class="nav-link" href="">HOME</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="">SHOP</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="">BLOG</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="">SALE</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="">CONTACT US</a>
+                                </li>
+                            </ul>
+
+                            <form class="nav-form" action="">
+                                <input class="nav-input" type="text" placeholder="Search..." id="search-input">
+                                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                            </form>
+                        </div>
+
+                        <div class="nav-account">
+                            <a class="nav-acc-text" href="">SIGN IN</a>
+                            <a class="nav-acc-text" href="">SIGN UP</a>
+                        </div>
+
+                        <div class="nav-cart">
+
+                            <div class="nav-icon">
+                                <a href="">
+                                    <i class="fa-regular fa-heart love-style"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-solid fa-cart-plus cart-style"></i>
+                                </a>
+                            </div>
+
+                            <div class="nav-cart-item">
+                                <span class="nav-cart-text">Shopping Cart</span>
+                                <span class="nav-cart-price">0,00 EUR</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- HEADER CONTENT -->
+
+            <main class="header-content">
+                <div class="container">
+                    <div class="header-banner">
+                        <h1>shoping without limits.</h1>
+                        <p>
+                            You can choose the best option for you, and it does not
+                            matter whether you are in Prague or San Francisco.
+                            We will deliver your purchase anywhere!
+                        </p>
+                        <a class="btn" href="">SHOP NOW</a>
+                    </div>
+                </div>
+            </main>
+        </header>
+
+
+        <!-- CATEGORY -->
+
+
+        <main class="category">
+            <div class="container">
+                <ul class="category-list">
+                    <li>
+                        <a href="">Home /</a>
+                    </li>
+                    <li>
+                        <a href=""> Womens Dress /</a>
+                    </li>
+                    <li>
+                        <a href="">Best Chose</a>
+                    </li>
+                </ul>
+            </div>
+        </main>
+
+
+        <!-- PRODUCT -->
+
+
+        <main class="product">
+            <div class="container">
+                <div class="pro-content">
+
+                    <div class="pro-option">
+
+                        <div class="pro-filter">
+                            <div class="pro-option-name">
+                                <h3 class="pro-title border">Filter</h3>
+                                <div>
+                                    <button class="filter-btn">
+                                        <i class="fa-solid fa-xmark"></i>
+                                        <span>reset all</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="pro-filter-list">
+
+                                <div>
+                                    <h3 class="pro-title mg-b-16">Brand:</h3>
+                                    <div class="pro-brand-filter">
+                                        <div>
+                                            <button>
+                                                <i class="fa-solid fa-xmark"></i>
+                                            </button>
+                                            <span>bardot</span>
+                                        </div>
+
+                                        <div>
+                                            <button>
+                                                <i class="fa-solid fa-xmark"></i>
+                                            </button>
+                                            <span>Cooper</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <h3 class="pro-title mg-b-16">Size (Inches):</h3>
+                                    <div class="pro-brand-filter">
+                                        <div>
+                                            <button>
+                                                <i class="fa-solid fa-xmark"></i>
+                                            </button>
+                                            <span>w32</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <h3 class="pro-title mg-b-16">Dress length:</h3>
+                                    <div class="pro-brand-filter">
+                                        <div>
+                                            <button>
+                                                <i class="fa-solid fa-xmark"></i>
+                                            </button>
+                                            <span>hight low</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <h3 class="pro-title mg-b-16">Color:</h3>
+                                    <div class="pro-brand-filter">
+                                        <div class="center">
+                                            <button>
+                                                <i class="fa-solid fa-xmark"></i>
+                                            </button>
+                                            <img class="pro-color-img" src="./img/color green.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <h3 class="pro-title mg-b-16">Price Range:</h3>
+                                    <div class="pro-brand-filter">
+                                        <div>
+                                            <button>
+                                                <i class="fa-solid fa-xmark"></i>
+                                            </button>
+                                            <span>0.00 EUR – 250 EUR</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- BRAND -->
+
+                        <div class="pro-brand-wrapper">
+                            <div class="pro-option-name">
+                                <h3 class="pro-title">Brand</h3>
+                                <button class="toggle-btn-brand">-</button>
+                            </div>
+
+                            <form class="pro-form-brand">
+                                <label>
+                                    <input type="checkbox" name="option1" value="1">
+                                    State
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="option2" value="2">
+                                    Cooper
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="option3" value="3">
+                                    bardot
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="option4" value="4">
+                                    alfani
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="option5" value="5">
+                                    cece
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="option6" value="6">
+                                    donna ricco
+                                </label>
+                            </form>
+                        </div>
+
+                        <!-- SIZE -->
+
+                        <div class="pro-size-wrapper">
+                            <div class="pro-option-name">
+                                <h3 class="pro-title">Size (Inches)</h3>
+                                <button class="toggle-btn-size">-</button>
+                            </div>
+
+                            <ul class="size-list">
+                                <li>
+                                    <button class="size-btn">osfa</button>
+                                </li>
+
+                                <li>
+                                    <button class="size-btn">w26</button>
+                                </li>
+
+                                <li>
+                                    <button class="size-btn">w27</button>
+                                </li>
+
+                                <li>
+                                    <button class="size-btn">w28</button>
+                                </li>
+
+                                <li>
+                                    <button class="size-btn">w29</button>
+                                </li>
+
+                                <li>
+                                    <button class="size-btn">w30</button>
+                                </li>
+
+                                <li>
+                                    <button class="size-btn">w31</button>
+                                </li>
+
+                                <li>
+                                    <button class="size-btn">w32</button>
+                                </li>
+
+                                <li>
+                                    <button class="size-btn">w33</button>
+                                </li>
+
+                                <li>
+                                    <button class="size-btn">w34</button>
+                                </li>
+
+                                <li>
+                                    <button class="size-btn">w35</button>
+                                </li>
+
+                                <li>
+                                    <button class="size-btn">w36</button>
+                                </li>
+
+                                <li>
+                                    <button class="size-btn">w38</button>
+                                </li>
+
+                                <li>
+                                    <button class="size-btn">w40</button>
+                                </li>
+
+                                <li>
+                                    <button class="size-btn">w42</button>
+                                </li>
+
+                                <li>
+                                    <button class="size-btn">w44</button>
+                                </li>
+
+                                <li>
+                                    <button class="size-btn">w46</button>
+                                </li>
+
+                                <li>
+                                    <button class="size-btn">w48</button>
+                                </li>
+
+                                <li>
+                                    <button class="size-btn">w50</button>
+                                </li>
+
+                                <li>
+                                    <button class="size-btn">w52</button>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- DRESS LENGTH -->
+
+                        <div class="pro-dress-wrapper">
+                            <div class="pro-option-name">
+                                <h3 class="pro-title">Dress length</h3>
+                                <button class="toggle-btn-dress">-</button>
+                            </div>
+
+                            <form class="pro-form-dress">
+                                <label>
+                                    <input type="checkbox" name="option1" value="1">
+                                    short
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="option2" value="2">
+                                    knee length
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="option3" value="3">
+                                    hight low
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="option4" value="4">
+                                    long
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="option5" value="5">
+                                    midi
+                                </label>
+                            </form>
+                        </div>
+
+                        <!-- COLOR -->
+
+                        <div class="pro-color-wrapper">
+                            <div class="pro-option-name">
+                                <h3 class="pro-title">Color</h3>
+                                <button class="toggle-btn-color">-</button>
+                            </div>
+
+                            <ul class="color-list-toggle">
+                                <li>
+                                    <button class="color-btn">
+                                        <img src="./img/color black.png" alt="">
+                                    </button>
+                                </li>
+
+                                <li>
+                                    <button class="color-btn">
+                                        <img src="./img/color beige.png" alt="">
+                                    </button>
+                                </li>
+
+                                <li>
+                                    <button class="color-btn">
+                                        <img src="./img/color blue.png" alt="">
+                                    </button>
+                                </li>
+
+                                <li>
+                                    <button class="color-btn">
+                                        <img src="./img/color green.png" alt="">
+                                    </button>
+                                </li>
+
+                                <li>
+                                    <button class="color-btn">
+                                        <img src="./img/color violet.png" alt="">
+                                    </button>
+                                </li>
+
+                                <li>
+                                    <button class="color-btn">
+                                        <img src="./img/color lightgray.png" alt="">
+                                    </button>
+                                </li>
+
+                                <li>
+                                    <button class="color-btn">
+                                        <img src="./img/color gray.png" alt="">
+                                    </button>
+                                </li>
+
+                                <li>
+                                    <button class="color-btn">
+                                        <img src="./img/color red.png" alt="">
+                                    </button>
+                                </li>
+
+                                <li>
+                                    <button class="color-btn">
+                                        <img src="./img/color yellow.png" alt="">
+                                    </button>
+                                </li>
+
+                                <li>
+                                    <button class="color-btn">
+                                        <img src="./img/color brow.png" alt="">
+                                    </button>
+                                </li>
+
+                                <li>
+                                    <button class="color-btn">
+                                        <img src="./img/color pink.png" alt="">
+                                    </button>
+                                </li>
+
+                                <li>
+                                    <button class="color-btn">
+                                        <img src="./img/color aqua.png" alt="">
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- PRICE -->
+
+                        <div class="pro-price-wrapper">
+                            <div class="pro-option-name">
+                                <h3 class="pro-title">Price Range</h3>
+                                <button class="toggle-btn-price">-</button>
+                            </div>
+
+                            <div class="pro-price-body">
+                                <div class="pro-price-text">
+                                    <span>0.00 EUR</span>
+                                    <span>250.00 EUR</span>
+                                </div>
+
+                                <img class="pro-pice-icon" src="./img/pro price.png" alt="">
+
+                                <button class="price-btn">APPLY</button>
+                            </div>
+                        </div>
+
+                        <!-- ABOUT -->
+
+                        <div class="pro-about">
+                            <h3 class="pro-title">About Dresses</h3>
+                            <p class="pro-desc">
+                                Every day we’re gonna be dropping the latest trends
+                                to help you nail every Summer sitch. Whether it’s a
+                                graduation, your mate's wedding, or just a cute day
+                                at the races with the gals, our occasion dresses
+                                have got you covered. Not looking for something
+                                fancy? No stress. We’ve got day dresses for days
+                                (aka bodycon dresses, t-shirt dresses, oversized
+                                shirt dresses).
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- PRODUCT BODY -->
+
+                    <div class="pro-body">
+
+                        <div class="pro-nav">
+                            <select class="pro-nav-filter" name="filter" id="sort-select">
+                                <option value="name">Tên (a - z)</option>
+                                <option value="low">Giá (thấp - cao)</option>
+                                <option value="hight">Giá (cao - thấp)</option>
+                            </select>
+
+                            <select class="pro-nav-size" name="size">
+                                <option value="48">48</option>
+                                <option value="49">49</option>
+                                <option value="50">50</option>
+                            </select>
+                        </div>
+
+                        <div class="pro-list">
+
+                            <div class="pro-list-item">
+
+                                <div class="pro-item">
+                                    <a class="pro-item-link" href="../Chi tiết SP/CTSP.html">
+                                        <img src="./img/pro img 1.png" alt="">
+                                        <span class="pro-item-name">TOP women</span>
+                                        <span class="pro-item-species">Đầm nữ xanh phối trắng.</span>
+                                    </a>
+
+                                    <span class="pro-item-price mg-b-16">139,00 EUR</span>
+                                    <ul class="color-list gap-15">
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color blue.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color green.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color violet.png" alt="">
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="pro-item">
+                                    <a class="pro-item-link" href="../Chi tiết SP/CTSP.html">
+                                        <img src="./img/pro img 2.png" alt="">
+                                        <span class="pro-item-name">TOP women</span>
+                                        <span class="pro-item-species">Váy 2 dây họa tiết hoa văn</span>
+                                    </a>
+
+                                    <span class="pro-item-price mg-b-16">139,00 EUR</span>
+                                    <ul class="color-list gap-15">
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color blue.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color green.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color violet.png" alt="">
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="pro-item">
+                                    <a class="pro-item-link" href="../Chi tiết SP/CTSP.html">
+                                        <img src="./img/pro img 3.png" alt="">
+                                        <span class="pro-item-name">TOP women</span>
+                                        <span class="pro-item-species">Váy 2 dây xanh đen</span>
+                                    </a>
+
+                                    <span class="pro-item-price mg-b-16">139,00 EUR</span>
+                                    <ul class="color-list gap-15">
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color blue.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color green.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color violet.png" alt="">
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="pro-item">
+                                    <a class="pro-item-link" href="../Chi tiết SP/CTSP.html">
+                                        <img src="./img/pro img 4.png" alt="">
+                                        <span class="pro-item-name">TOP women</span>
+                                        <span class="pro-item-species">Đầm nữ xanh phối trắng.</span>
+                                    </a>
+
+                                    <span class="pro-item-price mg-b-16">139,00 EUR</span>
+                                    <ul class="color-list gap-15">
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color blue.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color green.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color violet.png" alt="">
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="pro-item">
+                                    <a class="pro-item-link" href="../Chi tiết SP/CTSP.html">
+                                        <img src="./img/pro img 5.png" alt="">
+                                        <span class="pro-item-name">TOP women</span>
+                                        <span class="pro-item-species">Đầm nữ đỏ đô gợi cảm</span>
+                                    </a>
+
+                                    <span class="pro-item-price mg-b-16">139,00 EUR</span>
+                                    <ul class="color-list gap-15">
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color blue.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color green.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color violet.png" alt="">
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="pro-item">
+                                    <a class="pro-item-link" href="../Chi tiết SP/CTSP.html">
+                                        <img src="./img/pro img 6.png" alt="">
+                                        <span class="pro-item-name">TOP women</span>
+                                        <span class="pro-item-species">Váy đen phản quang.</span>
+                                    </a>
+
+                                    <span class="pro-item-price mg-b-16">139,00 EUR</span>
+                                    <ul class="color-list gap-15">
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color blue.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color green.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color violet.png" alt="">
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="pro-item">
+                                    <a class="pro-item-link" href="../Chi tiết SP/CTSP.html">
+                                        <img src="./img/pro img 7.png" alt="">
+                                        <span class="pro-item-name">TOP women</span>
+                                        <span class="pro-item-species">váy 2 dây họa tiết hoa văn</span>
+                                    </a>
+
+                                    <span class="pro-item-price mg-b-16">139,00 EUR</span>
+                                    <ul class="color-list gap-15">
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color blue.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color green.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color violet.png" alt="">
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="pro-item">
+                                    <a class="pro-item-link" href="../Chi tiết SP/CTSP.html">
+                                        <img src="./img/pro img 8.png" alt="">
+                                        <span class="pro-item-name">TOP women</span>
+                                        <span class="pro-item-species">đầm đen họa tiết chấm bi</span>
+                                    </a>
+
+                                    <span class="pro-item-price mg-b-16">139,00 EUR</span>
+                                    <ul class="color-list gap-15">
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color blue.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color green.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color violet.png" alt="">
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="pro-item">
+                                    <a class="pro-item-link" href="../Chi tiết SP/CTSP.html">
+                                        <img src="./img/pro img 4.png" alt="">
+                                        <span class="pro-item-name">TOP women</span>
+                                        <span class="pro-item-species">Angels malu zip jeans slim black used</span>
+                                    </a>
+
+                                    <span class="pro-item-price mg-b-16">139,00 EUR</span>
+                                    <ul class="color-list gap-15">
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color blue.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color green.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color violet.png" alt="">
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="pro-item">
+                                    <a class="pro-item-link" href="../Chi tiết SP/CTSP.html">
+                                        <img src="./img/pro img 1.png" alt="">
+                                        <span class="pro-item-name">TOP women</span>
+                                        <span class="pro-item-species">Angels malu zip jeans slim black used</span>
+                                    </a>
+
+                                    <span class="pro-item-price mg-b-16">139,00 EUR</span>
+                                    <ul class="color-list gap-15">
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color blue.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color green.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color violet.png" alt="">
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="pro-item">
+                                    <a class="pro-item-link" href="../Chi tiết SP/CTSP.html">
+                                        <img src="./img/pro img 5.png" alt="">
+                                        <span class="pro-item-name">TOP women</span>
+                                        <span class="pro-item-species">Angels malu zip jeans slim black used</span>
+                                    </a>
+
+                                    <span class="pro-item-price mg-b-16">139,00 EUR</span>
+                                    <ul class="color-list gap-15">
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color blue.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color green.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color violet.png" alt="">
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="pro-item">
+                                    <a class="pro-item-link" href="../Chi tiết SP/CTSP.html">
+                                        <img src="./img/pro img 8.png" alt="">
+                                        <span class="pro-item-name">TOP women</span>
+                                        <span class="pro-item-species">Angels malu zip jeans slim black used</span>
+                                    </a>
+
+                                    <span class="pro-item-price mg-b-16">139,00 EUR</span>
+                                    <ul class="color-list gap-15">
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color blue.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color green.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color violet.png" alt="">
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- SHOPPING -->
+
+                            <div class="shopping">
+                                <h2>shoping without limits.</h2>
+                                <p>
+                                    You can choose the best option for you, and it does
+                                    not matter whether you are in Prague or San Francisco.
+                                    We will deliver your purchase anywhere!
+                                </p>
+                                <a class="btn white" href="">SHOP NOW</a>
+                            </div>
+
+                            <div class="pro-list-item">
+
+                                <div class="pro-item">
+                                    <a class="pro-item-link" href="../Chi tiết SP/CTSP.html">
+                                        <img src="./img/pro img 1.png" alt="">
+                                        <span class="pro-item-name">TOP women</span>
+                                        <span class="pro-item-species">Angels malu zip jeans slim black used</span>
+                                    </a>
+
+                                    <span class="pro-item-price mg-b-16">139,00 EUR</span>
+                                    <ul class="color-list gap-15">
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color blue.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color green.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color violet.png" alt="">
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="pro-item">
+                                    <a class="pro-item-link" href="../Chi tiết SP/CTSP.html">
+                                        <img src="./img/pro img 2.png" alt="">
+                                        <span class="pro-item-name">TOP women</span>
+                                        <span class="pro-item-species">Angels malu zip jeans slim black used</span>
+                                    </a>
+
+                                    <span class="pro-item-price mg-b-16">139,00 EUR</span>
+                                    <ul class="color-list gap-15">
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color blue.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color green.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color violet.png" alt="">
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="pro-item">
+                                    <a class="pro-item-link" href="../Chi tiết SP/CTSP.html">
+                                        <img src="./img/pro img 3.png" alt="">
+                                        <span class="pro-item-name">TOP women</span>
+                                        <span class="pro-item-species">Angels malu zip jeans slim black used</span>
+                                    </a>
+
+                                    <span class="pro-item-price mg-b-16">139,00 EUR</span>
+                                    <ul class="color-list gap-15">
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color blue.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color green.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color violet.png" alt="">
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="pro-item">
+                                    <a class="pro-item-link" href="../Chi tiết SP/CTSP.html">
+                                        <img src="./img/pro img 4.png" alt="">
+                                        <span class="pro-item-name">TOP women</span>
+                                        <span class="pro-item-species">Angels malu zip jeans slim black used</span>
+                                    </a>
+
+                                    <span class="pro-item-price mg-b-16">139,00 EUR</span>
+                                    <ul class="color-list gap-15">
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color blue.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color green.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color violet.png" alt="">
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="pro-item">
+                                    <a class="pro-item-link" href="../Chi tiết SP/CTSP.html">
+                                        <img src="./img/pro img 5.png" alt="">
+                                        <span class="pro-item-name">TOP women</span>
+                                        <span class="pro-item-species">Angels malu zip jeans slim black used</span>
+                                    </a>
+
+                                    <span class="pro-item-price mg-b-16">139,00 EUR</span>
+                                    <ul class="color-list gap-15">
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color blue.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color green.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color violet.png" alt="">
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="pro-item">
+                                    <a class="pro-item-link" href="../Chi tiết SP/CTSP.html">
+                                        <img src="./img/pro img 6.png" alt="">
+                                        <span class="pro-item-name">TOP women</span>
+                                        <span class="pro-item-species">Angels malu zip jeans slim black used</span>
+                                    </a>
+
+                                    <span class="pro-item-price mg-b-16">139,00 EUR</span>
+                                    <ul class="color-list gap-15">
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color blue.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color green.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color violet.png" alt="">
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="pro-item">
+                                    <a class="pro-item-link" href="../Chi tiết SP/CTSP.html">
+                                        <img src="./img/pro img 7.png" alt="">
+                                        <span class="pro-item-name">TOP women</span>
+                                        <span class="pro-item-species">Angels malu zip jeans slim black used</span>
+                                    </a>
+
+                                    <span class="pro-item-price mg-b-16">139,00 EUR</span>
+                                    <ul class="color-list gap-15">
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color blue.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color green.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color violet.png" alt="">
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="pro-item">
+                                    <a class="pro-item-link" href="../Chi tiết SP/CTSP.html">
+                                        <img src="./img/pro img 8.png" alt="">
+                                        <span class="pro-item-name">TOP women</span>
+                                        <span class="pro-item-species">Angels malu zip jeans slim black used</span>
+                                    </a>
+
+                                    <span class="pro-item-price mg-b-16">139,00 EUR</span>
+                                    <ul class="color-list gap-15">
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color blue.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color green.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color violet.png" alt="">
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="pro-item">
+                                    <a class="pro-item-link" href="../Chi tiết SP/CTSP.html">
+                                        <img src="./img/pro img 4.png" alt="">
+                                        <span class="pro-item-name">TOP women</span>
+                                        <span class="pro-item-species">Angels malu zip jeans slim black used</span>
+                                    </a>
+
+                                    <span class="pro-item-price mg-b-16">139,00 EUR</span>
+                                    <ul class="color-list gap-15">
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color blue.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color green.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color violet.png" alt="">
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="pro-item">
+                                    <a class="pro-item-link" href="../Chi tiết SP/CTSP.html">
+                                        <img src="./img/pro img 1.png" alt="">
+                                        <span class="pro-item-name">TOP women</span>
+                                        <span class="pro-item-species">Angels malu zip jeans slim black used</span>
+                                    </a>
+
+                                    <span class="pro-item-price mg-b-16">139,00 EUR</span>
+                                    <ul class="color-list gap-15">
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color blue.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color green.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color violet.png" alt="">
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="pro-item">
+                                    <a class="pro-item-link" href="../Chi tiết SP/CTSP.html">
+                                        <img src="./img/pro img 5.png" alt="">
+                                        <span class="pro-item-name">TOP women</span>
+                                        <span class="pro-item-species">Angels malu zip jeans slim black used</span>
+                                    </a>
+
+                                    <span class="pro-item-price mg-b-16">139,00 EUR</span>
+                                    <ul class="color-list gap-15">
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color blue.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color green.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color violet.png" alt="">
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="pro-item">
+                                    <a class="pro-item-link" href="../Chi tiết SP/CTSP.html">
+                                        <img src="./img/pro img 8.png" alt="">
+                                        <span class="pro-item-name">TOP women</span>
+                                        <span class="pro-item-species">Angels malu zip jeans slim black used</span>
+                                    </a>
+
+                                    <span class="pro-item-price mg-b-16">139,00 EUR</span>
+
+                                    <ul class="color-list gap-15">
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color blue.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color green.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="color-btn">
+                                                <img src="./img/color violet.png" alt="">
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+        <!-- COMMITMENT -->
+
+
+        <main class="commitment">
+            <div class="container">
+                <ul class="commit-list">
+                    <li class="commit-item">
+                        <img src="../img/tick icon.png" alt="">
+                        <span>Duties and Taxes Guaranteed</span>
+                    </li>
+
+                    <li class="commit-item">
+                        <img src="../img/tick icon.png" alt="">
+                        <span>Free Express Shipping</span>
+                    </li>
+
+                    <li class="commit-item">
+                        <img src="../img/tick icon.png" alt="">
+                        <span>Customer Love</span>
+                    </li>
+
+                    <li class="commit-item">
+                        <img src="../img/tick icon.png" alt="">
+                        <span>Easy Returns</span>
+                    </li>
+
+                    <li class="commit-item">
+                        <img src="../img/tick icon.png" alt="">
+                        <span>Secure Payment</span>
+                    </li>
+                </ul>
+            </div>
+        </main>
+
+
+        <!-- FOOTER -->
+
+
+        <footer>
+            <div class="container">
+                <div class="ft-content">
+                    <a class="logo-link" href="../index.html">
+                        <img class="logo" src="../img/logo.png" alt="">
+                    </a>
+
+                    <div class="ft-list">
+
+                        <div class="ft-item">
+                            <h3>features</h3>
+
+                            <ul>
+                                <li>
+                                    <a class="ft-link" href="">MEN</a>
+                                </li>
+
+                                <li>
+                                    <a class="ft-link" href="">WOMEN</a>
+                                </li>
+
+                                <li>
+                                    <a class="ft-link" href="">BOYS</a>
+                                </li>
+
+                                <li>
+                                    <a class="ft-link" href="">GIRLS</a>
+                                </li>
+
+                                <li>
+                                    <a class="ft-link" href="">NEW ARRIVALS</a>
+                                </li>
+
+                                <li>
+                                    <a class="ft-link" href="">SHOES</a>
+                                </li>
+
+                                <li>
+                                    <a class="ft-link" href="">COTHES</a>
+                                </li>
+
+                                <li>
+                                    <a class="ft-link" href="">ACCESSORIES</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="ft-item">
+                            <h3>Menu</h3>
+
+                            <ul>
+                                <li>
+                                    <a class="ft-link" href="">ABOUT US</a>
+                                </li>
+
+                                <li>
+                                    <a class="ft-link" href="">CONTACT US</a>
+                                </li>
+
+                                <li>
+                                    <a class="ft-link" href="">MY ACCOUNT</a>
+                                </li>
+
+                                <li>
+                                    <a class="ft-link" href="">ORDERS HISTORY</a>
+                                </li>
+
+                                <li>
+                                    <a class="ft-link" href="">MY WISHLIST</a>
+                                </li>
+
+                                <li>
+                                    <a class="ft-link" href="">BLOG</a>
+                                </li>
+
+                                <li>
+                                    <a class="ft-link" href="">LOGIN</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="ft-item">
+                            <h3>contact us</h3>
+
+                            <ul>
+                                <li class="dl-flex mg-b-10">
+                                    <span class="ft-label">ADDRESS</span>
+                                    <span class="ft-link">123 STREET NAME, CITY, ENGLAND</span>
+                                </li>
+                                <li class="dl-flex mg-b-10">
+                                    <span class="ft-label">PHONE</span>
+                                    <span class="ft-link">(123) 456-7890</span>
+                                </li>
+                                <li class="dl-flex mg-b-10">
+                                    <span class="ft-label">EMAIL</span>
+                                    <span class="ft-link">MAIL@EXAMPLE.COM</span>
+                                </li>
+                                <li class="dl-flex mg-b-10">
+                                    <span class="ft-label">WORKING DAYS/HOURS</span>
+                                    <span class="ft-link">MON - SUN / 9:00AM - 8:00PM</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="ft-item">
+                            <h3>follow us</h3>
+
+                            <ul>
+                                <li>
+                                    <a class="ft-contact" href="">
+                                        <img src="../img/fb icon.png" alt="">
+                                        <span class="ft-link">FACEBOOK</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="ft-contact" href="">
+                                        <img src="../img/tw icon.png" alt="">
+                                        <span class="ft-link">TWITTER</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="ft-contact" href="">
+                                        <img src="../img/ins icon.png" alt="">
+                                        <span class="ft-link">INSTAGRAM</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="ft-item max-w-220">
+                            <h3>join us</h3>
+                            <span class="ft-link ">Subscribe to our newsletters</span>
+
+                            <form class="ft-form">
+                                <input type="email" id="email" name="email" placeholder="Email Address">
+                                <button type="submit">Subscribe!</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+<script src="../jquery.min.js"></script>
+<script src="DSSP.js"></script>
+
+</html>
