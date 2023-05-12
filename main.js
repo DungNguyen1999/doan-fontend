@@ -1,19 +1,19 @@
 // SEARCH
 
-const searchInput = document.getElementById('search-input');
-const productItems = document.querySelectorAll('.product-item');
+const searchInput = document.getElementById("search-input");
+const productItems = document.querySelectorAll(".product-item");
 
-searchInput.addEventListener('input', () => {
+searchInput.addEventListener("input", () => {
   const keyword = searchInput.value.toLowerCase().trim();
 
   productItems.forEach((item) => {
-    const nameElement = item.querySelector('.pro-item-species');
+    const nameElement = item.querySelector(".pro-item-species");
     const name = nameElement.innerText.toLowerCase();
 
     if (name.includes(keyword)) {
-      item.style.display = 'block';
+      item.style.display = "block";
     } else {
-      item.style.display = 'none';
+      item.style.display = "none";
     }
   });
 });
@@ -27,6 +27,15 @@ $(document).ready(function () {
       $(this).text("Hide");
     } else {
       $(this).text("Load more");
+    }
+  });
+
+  window.addEventListener("scroll", function () {
+    var scrollPosition = window.scrollY;
+    if (scrollPosition > 100) {
+      $(".header-nav").addClass("style-nav");
+    } else {
+      $(".header-nav").removeClass("style-nav");
     }
   });
 });

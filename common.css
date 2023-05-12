@@ -33,6 +33,13 @@
     height: auto;
     background: #000000;
     padding: 36px 0;
+    top: 0;
+}
+
+.style-nav {
+    position: fixed;
+    padding: 0;
+    width: 100%;
 }
 
 .nav-content {
